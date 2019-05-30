@@ -26,7 +26,7 @@ struct BankContent {
 struct BankQuery {
     1: required string query
     2: optional i8 count
-    3: optional base_dadata.OrgStatus status
+    3: optional list<base_dadata.OrgStatus> status
     4: optional base_dadata.OrgType type
 }
 

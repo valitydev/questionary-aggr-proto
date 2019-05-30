@@ -85,7 +85,7 @@ struct PartyQuery {
     1: required string query
     2: optional i8 count
     3: optional list<base_dadata.OrgStatus> status
-    4: optional list<base_dadata.OrgType> type
+    4: optional base_dadata.OrgType type
     5: optional list<base_dadata.LocationFilter> locations
     6: optional list<base_dadata.LocationBoostFilter> locations_boost
 }
