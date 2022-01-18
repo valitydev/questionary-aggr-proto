@@ -1,4 +1,4 @@
-namespace java com.rbkmoney.questionary_proxy_aggr.dadata_okved2
+namespace java dev.vality.questionary_proxy_aggr.dadata_okved2
 namespace erlang dadata_okved2
 
 include "base_dadata.thrift"

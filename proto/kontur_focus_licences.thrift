@@ -1,4 +1,4 @@
-namespace java com.rbkmoney.questionary_proxy_aggr.kontur_focus_licences
+namespace java dev.vality.questionary_proxy_aggr.kontur_focus_licences
 namespace erlang kontur_focus_licences
 
 include "base.thrift"

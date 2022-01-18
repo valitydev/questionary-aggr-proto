@@ -1,4 +1,4 @@
-namespace java com.rbkmoney.questionary_proxy_aggr.base
+namespace java dev.vality.questionary_proxy_aggr.base
 namespace erlang base
 
 /**

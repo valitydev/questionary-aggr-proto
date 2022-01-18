@@ -1,4 +1,4 @@
-namespace java com.rbkmoney.questionary_proxy_aggr.kontur_focus_beneficial_owner
+namespace java dev.vality.questionary_proxy_aggr.kontur_focus_beneficial_owner
 namespace erlang kontur_focus_beneficial_owner
 
 include "base.thrift"

@@ -1,4 +1,4 @@
-namespace java com.rbkmoney.damsel.questionary_proxy_aggr
+namespace java dev.vality.damsel.questionary_proxy_aggr
 namespace erlang questionary_proxy_aggr
 
 include "kontur_focus_api.thrift"
