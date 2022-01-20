@@ -1,4 +1,4 @@
-namespace java com.rbkmoney.questionary_proxy_aggr.dadata_fms_unit
+namespace java dev.vality.questionary_proxy_aggr.dadata_fms_unit
 namespace erlang dadata_fms_unit
 
 include "base_dadata.thrift"

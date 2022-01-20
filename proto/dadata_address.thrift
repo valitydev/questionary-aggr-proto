@@ -1,4 +1,4 @@
-namespace java com.rbkmoney.questionary_proxy_aggr.dadata_address
+namespace java dev.vality.questionary_proxy_aggr.dadata_address
 namespace erlang dadata_address
 
 include "base_dadata.thrift"

@@ -1,4 +1,4 @@
-namespace java com.rbkmoney.questionary_proxy_aggr.kontur_focus_api
+namespace java dev.vality.questionary_proxy_aggr.kontur_focus_api
 namespace erlang kontur_focus_api
 
 include "kontur_focus_req.thrift"
