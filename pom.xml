@@ -14,7 +14,7 @@
     <version>${revision}</version>
     <packaging>jar</packaging>
 
-    <name>questionary-aggr</name>
+    <name>questionary-aggr-proto</name>
     <description>Generates jar artifact containing compiled thrift classes based on generated thrift IDL files
     </description>
     <url>https://github.com/valitydev/questionary-aggr-proto</url>
@@ -61,16 +61,6 @@
 
     <build>
         <finalName>${project.artifactId}</finalName>
-        <resources>
-            <resource>
-                <directory>${project.basedir}/proto</directory>
-                <targetPath>${project.build.outputDirectory}/proto</targetPath>
-                <includes>
-                    <include>*.thrift</include>
-                </includes>
-                <filtering>false</filtering>
-            </resource>
-        </resources>
         <plugins>
             <!-- THRIFT -->
             <plugin>
