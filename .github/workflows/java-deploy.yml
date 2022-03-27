@@ -1,13 +1,13 @@
-name: Maven Build Artifact
+name: Java deploy
 
 on:
   push:
     branches:
-      - master
-      - main
+      - "master"
+      - "main"
 
 jobs:
-  build:
+  deploy:
     uses: valitydev/java-workflow/.github/workflows/maven-thrift-deploy.yml@v1
     secrets:
       server-username: ${{ secrets.OSSRH_USERNAME }}
